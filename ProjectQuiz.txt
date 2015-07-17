@@ -1,9 +1,9 @@
-*****************************************************
-Project Name:  Recipe Display Application
+************************************************************************
+Project Name:  Recipe Display Application  --  Project Quiz
 Author: 
 Date:   
 Participation Assignment (25 points)
-*****************************************************
+************************************************************************
 
 Instructions:  
 Answer the following questions for Lesson 7 Assignment
@@ -13,7 +13,7 @@ Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
 
-
+The code is read in a sequential manner. To be able to use the jQuery code with the other script files, the code needs to first be linked to the library or else the other files won't work because they are grabbing information from nothing. 
 
 
 ++++++++++++
@@ -21,7 +21,7 @@ Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
 
-
+Adding unnecessary code will take up space and slow down the webpage because of its massive library.
 
 
 
@@ -31,7 +31,7 @@ Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
 
-
+It starts with $("").
 
 
 
@@ -39,3 +39,11 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+
+A content delivery network (CDN) is a system of servers that deliver webpages and content to a user based on user location, where the web page came from and a what server is being used.
+Advantages:
+1.Build-in version control - You can link an html or css file to it and request the lastest version of the file.
+2.Different domains - CDNs are built on a different domain than the browser and can download multiple items at the same time.
+3.No geographic barriers - It has a global reach and businesses can expand to other countries.
+4.Saves money - Reduces the need to pay for foreign hosting because it is a single platform that can reach across regions.
+
